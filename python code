@@ -1,0 +1,39 @@
+#python code
+import os
+import time as tm
+
+global op
+op = input("enter operation (+ / - * ): ")
+tm.sleep(0.5)
+
+if op == "+": #additon
+    num1 = input("enter first number")
+    tm.sleep(0.5)
+    os.system("clear")
+    num2 = input("enter second number")
+    print("sulution:", int(num1) + int(num2) )
+
+
+if op == "-": #subtraction
+        num1 = input("enter first number")
+        tm.sleep(0.5)
+        os.system("clear")
+        num2 = input("enter second number")
+        print("sulution:", int(num1) + int(num2) )
+
+
+if op == "/": #division
+            num1 = input("enter first number")
+            tm.sleep(0.5)
+            os.system("clear")
+            num2 = input("enter second number")
+            print("sulution:", int(num1) / int(num2) )
+
+
+if op == "*": #multiplication
+        num1 = input("enter first number")
+        tm.sleep(0.5)
+        os.system("clear")
+        num2 = input("enter second number")
+        print("sulution:", int(num1) * int(num2) )
+
